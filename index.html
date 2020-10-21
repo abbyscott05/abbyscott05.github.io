@@ -1,10 +1,25 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
+<head>
     <meta charset="utf-8">
     <title>Interactive Kinematics</title>
-    
-    <body>
-        <h1> placeholder. test. change. </h1>
-    </body>
+    <style type="text/css">
+        canvas {
+            border: 1px solid black;
+        }
+
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    Mass (kg): <input type="number" id="mass"><br>
+    Theta (degrees) :<input type="number" id="theta"><br>
+    Mu_static :<input type="number" id="mu_static"><br>
+    Mu_kinetic :<input type="number" id="mu_ke"><br>
+    <button id="solveButton"> Solve</button>
+    <canvas> </canvas>
+    <script src="canvas.js"></script>
+</body>
 </html>
