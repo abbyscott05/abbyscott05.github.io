@@ -87,15 +87,15 @@ function draw_block_ramp() {
     var y_base = origin_y + SLOPE_LEN * Math.sin(theta_rad);
     var x_base = origin_x + SLOPE_LEN * Math.cos(theta_rad);
 
-    if (mouse.x_click - 10 < x_base && mouse.x_click + 10 > x_base
-        && mouse.y_click - 10 < y_base && mouse.y_click + 10 > y_base) {
-        if (Math.abs(y_base - mouse.y_up) > 20) {
-            y_base = mouse.y_up;
-            x_base = mouse.x_up;
-            theta_rad = Math.atan((y_base - origin_y) / (x_base - origin_x));
-        }
+    //if (mouse.x_click - 10 < x_base && mouse.x_click + 10 > x_base
+    //    && mouse.y_click - 10 < y_base && mouse.y_click + 10 > y_base) {
+    //    if (Math.abs(y_base - mouse.y_up) > 20) {
+    //        y_base = mouse.y_up;
+    //        x_base = mouse.x_up;
+    //        theta_rad = Math.atan((y_base - origin_y) / (x_base - origin_x));
+    //    }
        
-    }
+    //}
 
     c.moveTo(get_x(origin_x, origin_y), get_y(origin_x, origin_y));
     c.lineTo(get_x(x_base, y_base), get_y(x_base, y_base));
