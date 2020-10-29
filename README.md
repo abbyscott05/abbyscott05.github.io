@@ -1,5 +1,5 @@
 # paxtonsc.github.io
-Interactive Kinematics
+CS/Physics Portfolio
 
 
 https://paxtonsc.github.io
