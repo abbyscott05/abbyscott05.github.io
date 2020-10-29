@@ -3,20 +3,64 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 header {
     background: black;
-    color: white;
+    background-image: url(../img/background.JPG);
+    background-size: 100%;
     padding: 20px;
+    height: 100px;
+    text-align: center;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 40px;
 }
 
 section {
+    background: grey;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features {
     background: white;
     color: gray;
     padding: 20px;
     display: flex;
     flex-direction: row;
+   
+}
+
+.features figure {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+    .features figure img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border: solid;
+        text-decoration: none;
+        
+    }
+
+.features figure video {
+    border: solid;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
 }
 
 div {
@@ -26,14 +70,28 @@ div {
 }
 
 ul {
-    margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
 li {
     display: inline-block;
-    margin-right: 20px;
+}
+
+section.feature-box {
+    display: flex;
+}
+
+.feature-box div {
+    width: 100%;
+    margin: 1px;
+}
+section.feature-box.sales div {
+    background: gray;
+}
+
+section.feature-box.closeouts div {
+    background: red;     
 }
 
 footer {
