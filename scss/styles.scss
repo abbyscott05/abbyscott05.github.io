@@ -369,7 +369,7 @@ footer {
     }
 
     h1 {
-        color: #fff;
+        color: rgb(73, 73, 73);
         font-weight: 900;
         font-size: 5em;
         text-transform: uppercase;
@@ -378,7 +378,7 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 25%);
+        color: darken($base-color, 25%);
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
