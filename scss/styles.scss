@@ -294,9 +294,9 @@ footer {
 
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
+    color: rgb(168, 168, 168);
     padding: 15px 25px;
-    border: 3px solid #fff;
+    border: 3px solid rgb(168, 168, 168);
     border-radius: 30px;
     @include transition();
 
@@ -369,7 +369,7 @@ footer {
     }
 
     h1 {
-        color: rgb(73, 73, 73);
+        color: rgb(114, 114, 114);
         font-weight: 900;
         font-size: 5em;
         text-transform: uppercase;
@@ -378,7 +378,7 @@ footer {
     }
 
     h2 {
-        color: darken($base-color, 25%);
+        color: darken($base-color, 10%);
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
