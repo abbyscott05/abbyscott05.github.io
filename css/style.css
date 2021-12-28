@@ -124,7 +124,7 @@ header {
   position: fixed;
   right: 15px;
   top: 10px;
-  color: #db5b34;
+  color: #499ecf;
   font-size: 1.5em;
   z-index: 20;
   padding: 0 7px;
@@ -140,7 +140,7 @@ header {
   padding-right: 15px;
   padding-top: 10px;
   cursor: pointer;
-  color: #db5b34; }
+  color: #499ecf; }
   #mobile-menu-close span {
     font-size: 0.5em;
     text-transform: uppercase; }
